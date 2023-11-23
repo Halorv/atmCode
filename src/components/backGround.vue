@@ -1,5 +1,6 @@
 <template>
   <div class="background">
+    <van-button id="button1" class="">1</van-button>
     <arrowButton1/>
     <arrowButton8/>
     <img :src="require('../assets/background_pic.png')" class="pic">
@@ -12,6 +13,7 @@
 </script>
 
 <style>
+@import url('../assets/arrowButton.css');
 .background {
   width: 1024px;
   height: 768px;
@@ -23,5 +25,8 @@
   position: relative;
   top: 120px;
   right: 110px;
+}
+.button1 {
+  
 }
 </style>
