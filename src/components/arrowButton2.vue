@@ -5,7 +5,7 @@
 <style>
 #button2 {
   position: relative;
-  bottom: 290px;
-  right: 165px;
+  bottom: 280px;
+  right: 300px;
 }
 </style>

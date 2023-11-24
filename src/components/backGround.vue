@@ -2,7 +2,9 @@
   <div class="background">
     <van-button id="button1" class="">1</van-button>
     <arrowButton1/>
-    <arrowButton8/>
+
+    <arrowButton2/>
+    <arrowButton8/> 
     <img :src="require('../assets/background_pic.png')" class="pic">
     <!-- <van-image class="pic" fit="contain" :src="require('../assets/background_pic.png')"/> -->
   </div>
@@ -26,7 +28,5 @@
   top: 120px;
   right: 110px;
 }
-.button1 {
-  
-}
+
 </style>
