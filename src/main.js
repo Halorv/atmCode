@@ -7,6 +7,14 @@ import arrowButtonOrientRight from './components/arrowButtonOrientRight.vue'
 import arrowButtonOrientLeft from './components/arrowButtonOrientLeft.vue'
 import arrowButton1 from './components/arrowButton1.vue'
 import arrowButton2 from './components/arrowButton2.vue'
+<<<<<<< HEAD
+=======
+import arrowButton3 from './components/arrowButton3.vue'
+import arrowButton4 from './components/arrowButton4.vue'
+import arrowButton5 from './components/arrowButton5.vue'
+import arrowButton6 from './components/arrowButton6.vue'
+import arrowButton7 from './components/arrowButton7.vue'
+>>>>>>> 93cfc8b (12_1)
 import arrowButton8 from './components/arrowButton8.vue'
 
 
@@ -17,6 +25,14 @@ app.component("arrowButtonOrientRight", arrowButtonOrientRight)
 app.component("arrowButtonOrientLeft", arrowButtonOrientLeft)
 app.component("arrowButton1", arrowButton1)
 app.component("arrowButton2", arrowButton2)
+<<<<<<< HEAD
+=======
+app.component("arrowButton3", arrowButton3)
+app.component("arrowButton4", arrowButton4)
+app.component("arrowButton5", arrowButton5)
+app.component("arrowButton6", arrowButton6)
+app.component("arrowButton7", arrowButton7)
+>>>>>>> 93cfc8b (12_1)
 app.component("arrowButton8", arrowButton8)
 
 app.mount('#app')
