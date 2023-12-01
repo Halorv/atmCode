@@ -1,16 +1,5 @@
 <template>
-<<<<<<< HEAD
-    <arrowButtonOrientRight id="button3"/>
-  </template>
-  
-  <style>
-  #button3 {
-    position: relative;
-    bottom: 290px;
-    right: 1650px;
-  }
-  </style>
-=======
+
   <!-- <arrowButtonOrientRight id="button3"/> -->
   <van-button id="button3"></van-button>
 </template>
@@ -29,4 +18,3 @@
   background-image: url("../assets/pressedButton_80.png");
 }
 </style>
->>>>>>> 93cfc8b (12_1)
