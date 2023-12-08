@@ -12,13 +12,12 @@
     <img :src="require('../assets/background_pic.png')" class="pic">
     <!-- <van-image class="pic" fit="contain" :src="require('../assets/background_pic.png')"/> -->
   </div>
-  
+ 
 </template>
 <script>
 </script>
 
 <style>
-@import url('../assets/arrowButton.css');
 .background {
   width: 1024px;
   height: 768px;
@@ -32,4 +31,5 @@
   /* left: 50px; */
   right: 955px;
 }
+
 </style>

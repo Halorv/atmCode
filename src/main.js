@@ -13,10 +13,11 @@ import arrowButton5 from './components/arrowButton5.vue'
 import arrowButton6 from './components/arrowButton6.vue'
 import arrowButton7 from './components/arrowButton7.vue'
 import arrowButton8 from './components/arrowButton8.vue'
-
+import router from './router.js'
 
 const app = createApp(App)
 app.use(Vant)
+app.use(router)
 app.component("backGround", backGround)
 app.component("arrowButtonOrientRight", arrowButtonOrientRight)
 app.component("arrowButtonOrientLeft", arrowButtonOrientLeft)

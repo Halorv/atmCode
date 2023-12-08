@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <backGround />
-  </div>
+    <router-view></router-view>
 </template>
 
 
