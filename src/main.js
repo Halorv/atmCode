@@ -13,6 +13,7 @@ import arrowButton5 from './components/arrowButton5.vue'
 import arrowButton6 from './components/arrowButton6.vue'
 import arrowButton7 from './components/arrowButton7.vue'
 import arrowButton8 from './components/arrowButton8.vue'
+import returnToChoiceButton from './components/returnToChoiceButton'
 import router from './router.js'
 
 const app = createApp(App)
@@ -29,5 +30,6 @@ app.component("arrowButton5", arrowButton5)
 app.component("arrowButton6", arrowButton6)
 app.component("arrowButton7", arrowButton7)
 app.component("arrowButton8", arrowButton8)
+app.component("returnToChoiceButton",returnToChoiceButton)
 
 app.mount('#app')
