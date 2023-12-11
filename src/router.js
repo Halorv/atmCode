@@ -25,7 +25,7 @@ const router = createRouter({
         component:withdraw
     },
     {
-      path:"/card-return",
+      path:"/cardReturn",
       component:cardReturn
     },
     {

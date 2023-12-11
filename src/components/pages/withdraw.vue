@@ -5,7 +5,7 @@ import ReturnToChoiceButton from '../returnToChoiceButton.vue';
     <van-button class="oneHundred">100</van-button>
     <van-button class="fiveHundred">500</van-button>
     <van-button class="oneThousand">1000</van-button>
-    <returnToChoiceButton/>
+    <returnBack/>
     <van-button class="twoThousand">2000</van-button>
     <van-button class="fiveThousand">5000</van-button>
     <van-button class="otherAmount">其他金额</van-button>
@@ -42,16 +42,16 @@ import ReturnToChoiceButton from '../returnToChoiceButton.vue';
 .twoThousand {
   position: absolute;
   top: 120px;
-  right: 810px;
+  right: 820px;
 }
 .fiveThousand{
     position: absolute;
   top: 246px;
-  right: 810px;
+  right: 820px;
 }
 .otherAmount{
     position: absolute;
   top: 372px;
-  right: 810px;
+  right: 820px;
 }
 </style>
