@@ -5,11 +5,11 @@ import ReturnBack from '../returnBack.vue';
     <form action="" class="queryBalanceForm">
         <label for="">余额：</label>
     </form>
-    <van-button class="queryBalance-deposit" to="deposit">存款</van-button>
-    <van-button class="queryBalance-withdraw" to="withdraw">取款</van-button>
+    <van-button class="queryBalanceDeposit" to="deposit">存款</van-button>
+    <van-button class="queryBalanceWithdraw" to="withdraw">取款</van-button>
     <returnBack/>
-    <van-button class="queryBalance-queryDetails">查询明细</van-button>
-    <van-button class="queryBalance-cardReturn" to="cardReturn">退卡</van-button>
+    <van-button class="queryBalanceQueryDetails">查询明细</van-button>
+    <van-button class="queryBalanceCardReturn" to="cardReturn">退卡</van-button>
 </template>
 <style>
 .queryBalanceForm{
@@ -20,22 +20,22 @@ import ReturnBack from '../returnBack.vue';
     font-size: 200%;
     color: black;
 }
-.queryBalance-deposit{
+.queryBalanceDeposit{
     position:absolute;
     top: 120px;
     right: 1665px;
 }
-.queryBalance-withdraw{
+.queryBalanceWithdraw{
     position:absolute;
     top: 246px;
     right: 1665px;
 }
-.queryBalance-queryDetails{
+.queryBalanceQueryDetails{
     position:absolute;
     top: 120px;
     right: 820px;
 }
-.queryBalance-cardReturn{
+.queryBalanceCardReturn{
     position: absolute;
     top: 500px;
     right: 820px;

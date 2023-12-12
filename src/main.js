@@ -14,6 +14,7 @@ import arrowButton6 from './components/arrowButton6.vue'
 import arrowButton7 from './components/arrowButton7.vue'
 import arrowButton8 from './components/arrowButton8.vue'
 import returnBack from './components/returnBack.vue'
+import showList from './components/showList.vue'
 import router from './router.js'
 
 const app = createApp(App)
@@ -31,5 +32,6 @@ app.component("arrowButton6", arrowButton6)
 app.component("arrowButton7", arrowButton7)
 app.component("arrowButton8", arrowButton8)
 app.component("returnBack",returnBack)
+app.component("showList",showList)
 
 app.mount('#app')

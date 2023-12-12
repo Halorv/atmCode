@@ -2,11 +2,11 @@
   <div><backGround /></div>
   <van-button class="depositButton" to="deposit">存款</van-button>
   <van-button class="withdrawButton" to="withdraw">取款</van-button>
-  <van-button class="card-return" to="cardReturn">退卡</van-button>
-  <van-button class="query-balance" to="queryBalance">查询余额</van-button>
-  <van-button class="query-details">查询明细</van-button>
-  <van-button class="transfer">转账</van-button>
-  <van-button class="modify-password">修改密码</van-button>
+  <van-button class="cardReturn" to="cardReturn">退卡</van-button>
+  <van-button class="queryBalance" to="queryBalance">查询余额</van-button>
+  <van-button class="queryDetails" to="queryDetails">查询明细</van-button>
+  <van-button class="transfer" to="transfer">转账</van-button>
+  <van-button class="modifyPassword" to="modifyPassword">修改密码</van-button>
 </template>
 <style>
 .depositButton {
@@ -22,18 +22,18 @@
   right: 1665px;
   /* letter-spacing: 1em; */
 }
-.card-return {
+.cardReturn {
   position: absolute;
   top: 500px;
   right: 1665px;
   /* letter-spacing: 1em; */
 }
-.query-balance {
+.queryBalance {
   position: absolute;
   top: 120px;
   right: 820px;
 }
-.query-details{
+.queryDetails{
     position: absolute;
   top: 246px;
   right: 820px;
@@ -44,7 +44,7 @@
   right: 820px;
   /* letter-spacing: 1em; */
 }
-.modify-password{
+.modifyPassword{
     position: absolute;
   top: 500px;
   right: 820px;
