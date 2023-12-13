@@ -1,7 +1,7 @@
 <template>
 
   <!-- <arrowButtonOrientRight id="button3"/> -->
-  <van-button id="button3"></van-button>
+  <van-button id="button3" @click="handleClick"></van-button>
 </template>
 
 <style>
@@ -18,3 +18,18 @@
   background-image: url("../assets/pressedButton_80.png");
 }
 </style>
+<script>
+  function handleClickOneThousandButton(){
+    oneThousandButton.click();
+  }
+  export default{
+    methods:{
+      handleClick(){
+        if(this.$route.path == "/withdraw-info")
+        {
+          handleClickOneThousandButton();
+        }
+      }
+    }
+  }
+</script>

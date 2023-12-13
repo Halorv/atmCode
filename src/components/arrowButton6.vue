@@ -1,7 +1,7 @@
 <template>
 
   <!-- <arrowButtonOrientLeft id="button8"/> -->
-  <van-button id="button6"></van-button>
+  <van-button id="button6" @click="handleClick()"></van-button>
 </template>
 
 <style>
@@ -18,3 +18,25 @@
   background-image: url("../assets/pressedButton_80.png");
 }
 </style>
+
+<script>
+function handleClickTransferButton(){
+  transferButton.click();
+}
+function handleClickOtherAmountButton(){
+  otherAmountButton.click();
+}
+
+export default{
+  methods:{
+    handleClick(){
+      if(this.$route.path =="/choice-info") {
+        handleClickTransferButton();
+      }
+      else if(this.$route.path == "/withdraw-info"){
+        handleClickOtherAmountButton();
+      }
+    }
+  }
+}
+</script>

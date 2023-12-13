@@ -16,35 +16,35 @@ const router = createRouter({
       component: login,
     },
     {
-        path:"/choice",
+        path:"/choice-info",
         component:choice,
     },
     {
-        path:"/deposit",
+        path:"/deposit-info",
         component:deposit
     },
     {
-        path:"/withdraw",
+        path:"/withdraw-info",
         component:withdraw
     },
     {
-      path:"/cardReturn",
+      path:"/cardReturn-info",
       component:cardReturn
     },
     {
-      path:"/queryBalance",
+      path:"/queryBalance-info",
       component:queryBalance
     },
     {
-      path:"/queryDetails",
+      path:"/queryDetails-info",
       component:queryDetails
     },
     {
-      path:"/transfer",
+      path:"/transfer-info",
       component:transfer
     },
     {
-      path:"/modifyPassword",
+      path:"/modifyPassword-info",
       component:modifyPassword
     }
   ],

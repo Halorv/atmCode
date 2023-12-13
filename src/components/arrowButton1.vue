@@ -3,7 +3,7 @@
   <!-- <button>
     <img :src="require('../assets/realButton.png')" id="button1">
   </button> -->
-  <van-button id="button1"></van-button>
+  <van-button id="button1" @click="handleClick()"></van-button>
 </template>
 
 <style>
@@ -20,3 +20,33 @@
   background-image: url("../assets/pressedButton_80.png");
 }
 </style>
+
+<script>
+function handleClickLogin() {
+  loginButton.click();
+}
+function handleClickDeposit() {
+  depositButton.click();
+}
+function handleClickOneHundredButton() {
+  oneHundredButton.click();
+}
+export default {
+  methods: {
+    handleClick() {
+      if (this.$route.path == "/") {
+        handleClickLogin();
+      }
+      else if (
+        (this.$route.path == "/choice-info") |
+        (this.$route.path == "/queryBalance-info")
+      ){
+        handleClickDeposit();
+      }
+      else if (this.$route.path == "/withdraw-info") {
+        handleClickOneHundredButton();
+      }
+    },
+  },
+};
+</script>

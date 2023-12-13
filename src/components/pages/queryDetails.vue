@@ -2,7 +2,7 @@ import { Loading } from 'vant';
 <template>
   <div><backGround /></div>
   <returnBack />
-  <van-button class="queryDetailsCardReturn" to="cardReturn">退卡</van-button>
+  <van-button class="queryDetailsCardReturn" to="cardReturn-info" id="queryCardReturnButton">退卡</van-button>
   <!-- <showList/> -->
   <form action="" class="detailsForm">
     <!-- 明细展示，待修改 -->
@@ -28,4 +28,6 @@ import { Loading } from 'vant';
   opacity: 0.7;
 }
 </style>
-<script></script>
+<script>
+  var queryCardReturnButton = document.getElementById(queryCardReturnButton)
+</script>

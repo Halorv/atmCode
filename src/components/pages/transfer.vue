@@ -25,7 +25,7 @@
   left: 50%;
   transform: translate(-50%);
 }
-.ensure{
+.transferEnsure{
     position: absolute;
     top: 500px;
     right: 820px;

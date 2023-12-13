@@ -4,7 +4,7 @@
     <label class="loginLable" for="">密码: </label>
     <input type="password" class="inputarea" />
   </form>
-  <van-button to="choice" class="loginButton">登录</van-button>
+  <van-button to="choice-info" class="loginButton" id="loginButton">登录</van-button>
   <router-view></router-view>
 </template>
 <style>
@@ -32,4 +32,6 @@
   transform: translate(-130%, -15%);
 }
 </style>
-<script></script>
+<script>
+var loginButton = document.getElementById("loginButton");
+</script>

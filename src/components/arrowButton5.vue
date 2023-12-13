@@ -1,7 +1,6 @@
 <template>
-
   <!-- <arrowButtonOrientLeft id="button8"/> -->
-  <van-button id="button5"></van-button>
+  <van-button id="button5" @click="handleClick()"></van-button>
 </template>
 
 <style>
@@ -18,3 +17,27 @@
   background-image: url("../assets/pressedButton_80.png");
 }
 </style>
+
+<script>
+function handleClickModifyPassword() {
+  modifyPasswordButton.click();
+}
+function handleClickQueryCardReturnButton() {
+  queryCardReturnButton.click();
+}
+export default {
+  methods: {
+    handleClick() {
+      if (this.$route.path == "/choice-info") {
+        handleClickModifyPassword();
+      } 
+      else if (
+        (this.$route.path == "/queryBalance-info") |
+        (this.$route.path == "/queryDetails-info")
+      ) {
+        handleClickQueryCardReturnButton();
+      }
+    },
+  },
+};
+</script>

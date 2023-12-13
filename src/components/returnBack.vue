@@ -1,5 +1,5 @@
 <template>
-  <van-button class="returnBack" @click="returnBack()">返回</van-button>
+  <van-button class="returnBack" id="returnBackButton" @click="returnBack()">返回</van-button>
 </template>
 <style>
 .returnBack {
@@ -9,6 +9,7 @@
 }
 </style>
 <script>
+var returnBackButton = document.getElementById(returnBackButton)
 export default{
   methods:{
     returnBack(){
